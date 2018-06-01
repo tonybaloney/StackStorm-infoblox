@@ -11,4 +11,4 @@ parameters:
     default: 'record:host'
   EA:
     type: array
-    descrition: "Example: ['IN_Country=FR','IN_DeviceType=AGGREG']"
+    description: "Example: ['IN_Country=FR','IN_DeviceType=AGGREG']"
