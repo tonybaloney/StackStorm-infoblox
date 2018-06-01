@@ -7,3 +7,5 @@ entry_point: get_object.py
 parameters:
   object_type:
     type: string
+    required: true
+    description: The infoblox object type name, e.g. 'network'

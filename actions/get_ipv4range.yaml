@@ -1,7 +1,7 @@
 ---
-name: get_object
+name: get_iprangev4
 runner_type: python-script
-description: Get an object
+description: Get IPv4 range
 enabled: true
 entry_point: get_object.py
 parameters:
@@ -9,3 +9,9 @@ parameters:
     type: string
     immutable: true
     default: 'iprangev4'
+  start_addr
+    type: string
+    description: start of IP range
+  end_addr
+    type: string
+    description: end of IP range

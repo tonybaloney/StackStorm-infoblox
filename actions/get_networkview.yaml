@@ -12,12 +12,4 @@ parameters:
   name:
     type: string
     description: Filter by name
-  return_fields:
-    type: array
-    immutable: true
-    default: 
-      - "cloud_info"
-      - "comment"
-      - "ddns_zone_primaries"
-      - "is_default"
-      - "name"
+

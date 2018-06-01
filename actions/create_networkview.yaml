@@ -12,3 +12,6 @@ parameters:
   name:
     type: string
     required: true
+  comment:
+    type: string
+    description: Comment for the network view
