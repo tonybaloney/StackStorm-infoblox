@@ -9,3 +9,6 @@ parameters:
     type: string
     default: 'view'
     immutable: true
+  name:
+    type: string
+    description: Filter by name
