@@ -3,7 +3,7 @@ chain:
     name: get_network
     ref: infoblox.get_network
     params:
-      name: "{{network}}"
+      network: "{{network}}"
     on-success: create_fixed_ip
     publish:
       address: "{{get_network.result[0].network}}"
