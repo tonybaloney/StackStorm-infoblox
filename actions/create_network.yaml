@@ -9,9 +9,6 @@ parameters:
     type: string
     immutable: true
     default: 'network'
-  name:
-    type: string
-    required: true
   address:
     type: string
     description: Address
