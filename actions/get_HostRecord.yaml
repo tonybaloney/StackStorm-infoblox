@@ -1,7 +1,7 @@
 ---
 name: get_HostRecord
 runner_type: python-script
-description: Get HostRecord IPV4 & IPV6
+description: Get HostRecord
 enabled: true
 entry_point: get_object.py
 parameters:
@@ -9,3 +9,6 @@ parameters:
     type: string
     immutable: true
     default: 'record:host'
+  EA:
+    type: list
+    descrition: 'Example: ['IN_Country=FR','IN_DeviceType=AGGREG']'

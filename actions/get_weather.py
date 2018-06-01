@@ -10,5 +10,5 @@ class GetWeather(Action):
     #     pass
 
     def run(self, city, **kwargs):
-        result = requests.get('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&APPID=91a779c48c18e14f49b4d82ad2e4ff45')
+        result = requests.get('https://api.openweathermap.org/data/2.5/weather?q={}&APPID=91a779c48c18e14f49b4d82ad2e4ff45'.format('city'))
         return result.json()
