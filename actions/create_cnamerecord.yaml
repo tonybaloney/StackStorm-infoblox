@@ -15,3 +15,6 @@ parameters:
   canonical:
     type: string
     required: true
+  zone:
+    type: string
+    required: true
