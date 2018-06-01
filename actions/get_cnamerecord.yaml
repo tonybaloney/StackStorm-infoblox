@@ -1,0 +1,11 @@
+---
+name: get_cnamerecord
+runner_type: python-script
+description: Get CNAME records
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'record:cname'
