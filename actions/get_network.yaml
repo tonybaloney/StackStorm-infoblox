@@ -9,3 +9,6 @@ parameters:
     type: string
     immutable: true
     default: 'network'
+  network:
+    type: string
+    description: The network address, in IPv4 Address/CIDR format

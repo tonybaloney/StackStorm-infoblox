@@ -6,5 +6,5 @@ __all__ = [
 
 class GetObjectAction(InfobloxBaseAction):
     def run(self, object_type, **kwargs):
-        result = self.connection.get_object(object_type)
+        result = self.connection.get_object(object_type, kwargs)
         return result
