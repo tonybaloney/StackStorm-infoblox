@@ -12,9 +12,6 @@ parameters:
   name:
     type: string
     required: true
-  ms_ad_user_data:
-    type: string
-    description: The Microsoft Active Directory user related information
   comment:
     type: string
     description: Comment for the network view
