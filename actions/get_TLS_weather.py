@@ -1,10 +1,11 @@
 import requests
+from st2common.runners.base_action import Action
 
 __all__ = [
     'GetTLSWeather',
 ]
 
-class GetTLSWeather:
+class GetTLSWeather(Action):
     def __init__(self):
         pass
 
