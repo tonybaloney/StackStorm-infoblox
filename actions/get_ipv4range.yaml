@@ -1,7 +1,7 @@
 ---
 name: get_iprangev4
 runner_type: python-script
-description: Get IPv4 range
+description: Get IPv4 ranges
 enabled: true
 entry_point: get_object.py
 parameters:

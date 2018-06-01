@@ -1,7 +1,7 @@
 ---
 name: get_ipv6address
 runner_type: python-script
-description: Get IP V6 address
+description: Get IP V6 addresses
 enabled: true
 entry_point: get_object.py
 parameters:

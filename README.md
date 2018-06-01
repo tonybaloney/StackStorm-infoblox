@@ -6,6 +6,14 @@
 
 This is a basic template directory structure for a StackStorm Integration Pack.
 
+# Actions
+
+This pack has many actions for fetching of data from an Infoblox server, 
+
+- Managing DNS records, A, AAAA, PTR, TXT, CNAME etc.
+- Managing fixed IPv4 and IPv6 addresses
+- Managing infoblox network, networkviews and views
+
 
 ## Authors
  - @andrepferreira

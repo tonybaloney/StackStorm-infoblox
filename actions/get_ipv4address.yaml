@@ -1,7 +1,7 @@
 ---
-name: get_IPv4Address
+name: get_ipv4address
 runner_type: python-script
-description: Get IP v4 address
+description: Get IPv4 addresses
 enabled: true
 entry_point: get_object.py
 parameters:

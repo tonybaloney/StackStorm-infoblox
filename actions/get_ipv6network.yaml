@@ -1,7 +1,7 @@
 ---
 name: get_ipv6network
 runner_type: python-script
-description: Get NetworkV6
+description: Get IPv6 Networks
 enabled: true
 entry_point: get_object_detailed.py
 parameters:
