@@ -1,6 +1,0 @@
----
-name: get_TLS_weather
-runner_type: python-script
-description: Get today's weather in Toulouse, France
-enabled: true
-entry_point: get_TLS_weather.py

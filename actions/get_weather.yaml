@@ -1,0 +1,13 @@
+---
+name: get_weather
+runner_type: python-script
+description: Get today's weather for a given city
+enabled: true
+entry_point: get_weather.py
+parameters:
+  city:
+    type: string
+    description: The city you want the weather forecast for (name [,country])
+    required: true
+    position: 1
+    default: 'Metz, fr'
