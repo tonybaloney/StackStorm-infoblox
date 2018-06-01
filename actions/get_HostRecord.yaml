@@ -10,5 +10,5 @@ parameters:
     immutable: true
     default: 'record:host'
   EA:
-    type: list
-    descrition: 'Example: ['IN_Country=FR','IN_DeviceType=AGGREG']'
+    type: array
+    descrition: "Example: ['IN_Country=FR','IN_DeviceType=AGGREG']"
