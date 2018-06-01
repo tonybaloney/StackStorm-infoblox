@@ -1,4 +1,4 @@
-import request
+import requests
 
 __all__ = [
     'GetTLSWeather',
