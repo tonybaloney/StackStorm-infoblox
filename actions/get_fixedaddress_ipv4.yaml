@@ -1,7 +1,7 @@
 ---
 name: get_fixedaddress_ipv4
 runner_type: python-script
-description: Get ipv4 fixed address
+description: Get IPv4 fixed addresses
 enabled: true
 entry_point: get_object.py
 parameters:

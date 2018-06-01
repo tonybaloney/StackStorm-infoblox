@@ -3,9 +3,16 @@ name: get_arecord
 runner_type: python-script
 description: Get A Record
 enabled: true
-entry_point: get_object.py
+entry_point: get_object_detailed.py
 parameters:
   object_type:
     type: string
     immutable: true
     default: 'record:a'
+  fields:
+    type: array
+    description: Fields to return
+    default:
+      - "ipv4addr"
+      - "name"
+      - "view"
