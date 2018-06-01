@@ -1,12 +1,17 @@
 ---
-  template_user:
-    description: "Username for authenticating to Example service"
+  username:
+    description: "Username for authenticating to Infloblox"
     type: "string"
     secret: false
     required: true
-    default: "admin"
-  template_api_key:
-    description: "API Key for authenticating to Example service"
+    default: "alphonse"
+  password:
+    passwordd: "Username password for authenticating to Infloblox"
+    type: "string"
+    secret: true
+    required: true
+  hostname:
+    description: "Hostname of Infloblox"
     type: "string"
     secret: true
     required: true
