@@ -13,5 +13,5 @@
   hostname:
     description: "Hostname of Infloblox"
     type: "string"
-    secret: true
+    secret: false
     required: true
