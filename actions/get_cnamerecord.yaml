@@ -12,3 +12,6 @@ parameters:
   name:
     type: string
     description: Filter by name
+  zone:
+    type: string
+    description: Filter by zone
