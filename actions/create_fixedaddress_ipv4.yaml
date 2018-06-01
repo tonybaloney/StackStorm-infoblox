@@ -1,7 +1,7 @@
 ---
 name: create_fixedaddress_ipv4
 runner_type: python-script
-name: create_fixed_ipv4_address
+description: Create_fixed_ipv4_address
 description: 
 enabled: true
 entry_point: create_object.py
