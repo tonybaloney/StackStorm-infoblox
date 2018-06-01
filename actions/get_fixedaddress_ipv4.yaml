@@ -1,11 +1,17 @@
 ---
-name: get_fixedaddress_ipv6
+name: get_fixedaddress_ipv4
 runner_type: python-script
-description: Get ipv6 fixed address
+description: Get ipv4 fixed address
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
     immutable: true
-    default: 'ipv6fixedaddress'
+    default: 'fixedaddress'
+  ipv4addr:
+    type: string
+    description: filter by ip4 address
+  network_view:
+    type: string
+    description: filter by network view

@@ -19,3 +19,4 @@
     description: "Verify SSL of Infoblox API"
     default: true
     type: bool
+    required: true
