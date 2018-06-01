@@ -15,3 +15,7 @@
     type: "string"
     secret: false
     required: true
+  verify_ssl:
+    description: "Verify SSL of Infoblox API"
+    default: true
+    type: bool

@@ -23,7 +23,8 @@ class InfobloxBaseAction(Action):
             'host': _hostname, 
             'username': _username, 
             'password': _password,
-            'ssl_verify': False,
-            'silent_ssl_warnings': True
+            'ssl_verify': self.config['verify_ssl'],
+            'silent_ssl_warnings': (not self.config['verify_ssl'])
         }
+
         self.connection = connector.Connector(opts)
