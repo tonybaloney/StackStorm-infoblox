@@ -1,0 +1,11 @@
+---
+name: get_arecord
+runner_type: python-script
+description: Get A Record
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'record:a'
