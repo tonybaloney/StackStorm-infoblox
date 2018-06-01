@@ -1,1 +1,1 @@
-infoblox-client
+git+https://github.com/tonybaloney/infoblox-client#egg=infoblox-client

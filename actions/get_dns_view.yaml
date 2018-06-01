@@ -1,11 +1,11 @@
 ---
-name: get_ipv6network
+name: get_dns_view
 runner_type: python-script
-description: Get NetworkV6
+description: Get DNS views
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
+    default: 'view'
     immutable: true
-    default: 'ipv6network'
