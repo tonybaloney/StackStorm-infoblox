@@ -1,3 +1,4 @@
+---
 name: get_ipv6network
 runner_type: python-script
 description: Get NetworkV6
@@ -7,4 +8,4 @@ parameters:
   object_type:
     type: string
     immutable: true
-default: 'ipv6network'
+    default: 'ipv6network'
