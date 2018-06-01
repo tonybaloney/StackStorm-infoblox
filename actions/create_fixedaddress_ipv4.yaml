@@ -11,8 +11,7 @@ parameters:
     default: 'fixedaddress'
   ipv4addr:
     type: string
-    required: true
-    default: func:nextavailableip:a.b.c.d/xx
+    required: true 
     description: Format to add IP is "func:nextavailableip:a.b.c.d/x"
   mac:
     type: string
