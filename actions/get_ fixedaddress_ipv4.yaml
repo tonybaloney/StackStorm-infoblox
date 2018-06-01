@@ -1,0 +1,11 @@
+---
+name: get_fixedaddress_ipv4
+runner_type: python-script
+description: Get ipv4 fixed address
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'fixedaddress'

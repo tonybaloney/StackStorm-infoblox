@@ -1,0 +1,11 @@
+---
+name: get_ipv6address
+runner_type: python-script
+description: Get IP V6 address
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'ipv6address'
