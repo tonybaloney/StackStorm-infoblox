@@ -4,7 +4,7 @@ __all__ = [
     'GetTLSWeather',
 ]
 
-class GetTLSWeather():
+class GetTLSWeather:
     def __init__(self):
         pass
 
