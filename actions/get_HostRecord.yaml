@@ -8,4 +8,4 @@ parameters:
   object_type:
     type: string
     immutable: true
-    default: 'HostRecord'
+    default: 'record:host'

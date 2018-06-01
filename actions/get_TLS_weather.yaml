@@ -4,3 +4,10 @@ runner_type: python-script
 description: Get today's weather in Toulouse, France
 enabled: true
 entry_point: get_TLS_weather.py
+parameters:
+  city:
+    type: string
+    description: The city you want the weather forecast for (name [,country])
+    required: true
+    position: 1
+    default: 'Metz, fr'
