@@ -11,4 +11,4 @@ parameters:
     default: 'zone_auth'
   fqdn:
     type: string
-    description: fully qualyfied domain name
+    description: fully qualified domain name

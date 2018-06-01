@@ -1,7 +1,7 @@
 ---
-name: get_HostRecord
+name: get_hostrecord
 runner_type: python-script
-description: Get HostRecord
+description: Get host records
 enabled: true
 entry_point: get_object.py
 parameters:
@@ -9,6 +9,6 @@ parameters:
     type: string
     immutable: true
     default: 'record:host'
-  EA:
+  ea:
     type: array
     description: "Example: ['IN_Country=FR','IN_DeviceType=AGGREG']"

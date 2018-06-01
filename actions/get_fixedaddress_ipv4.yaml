@@ -15,3 +15,8 @@ parameters:
   network_view:
     type: string
     description: filter by network view
+  fields:
+    type: array
+    description: Fields to show in the result
+    default:
+      - 
