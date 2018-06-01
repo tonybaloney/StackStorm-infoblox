@@ -6,7 +6,7 @@ chain:
       network: "{{network}}"
     on-success: create_fixed_ip
     publish:
-      address: "{{get_network.result[0].network}}"
+      address: "{{get_network.result[1].network}}"
     
   -
     name: create_fixed_ip
