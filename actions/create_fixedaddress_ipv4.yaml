@@ -1,7 +1,7 @@
 ---
 name: create_fixedaddress_ipv4
 runner_type: python-script
-description: Create_fixed_ipv4_address 
+description: Create a fixed ipv4 address mapped to MAC 
 enabled: true
 entry_point: create_object.py
 parameters:
