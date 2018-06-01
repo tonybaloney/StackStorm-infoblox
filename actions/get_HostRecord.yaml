@@ -1,0 +1,11 @@
+---
+name: get_HostRecord
+runner_type: python-script
+description: Get HostRecord IPV4 & IPV6
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'HostRecord'
