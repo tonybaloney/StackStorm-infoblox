@@ -8,5 +8,7 @@ This is a basic template directory structure for a StackStorm Integration Pack.
 
 
 ## Authors
+ - @andrepferreira
+ - @mlemartien
 
 - @tonybaloney

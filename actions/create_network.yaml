@@ -12,3 +12,6 @@ parameters:
   comment:
     type: string
     description: comment
+  network:
+    type: string
+    description: network
