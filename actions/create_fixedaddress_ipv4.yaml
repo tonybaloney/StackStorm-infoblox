@@ -13,6 +13,7 @@ parameters:
     type: string
     required: true
     default: func:nextavailableip:a.b.c.d/xx
+    description: Format to add IP is "func:nextavailableip:a.b.c.d/x"
   mac:
     type: string
     description: Mac address of device
