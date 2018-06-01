@@ -1,9 +1,9 @@
 ---
-name: get_networkview
+name: create_networkview
 runner_type: python-script
-description: Get a network views
+description: Create a network view
 enabled: true
-entry_point: get_object.py
+entry_point: create_object.py
 parameters:
   object_type:
     type: string
@@ -11,4 +11,4 @@ parameters:
     default: 'networkview'
   name:
     type: string
-    description: Filter by name
+    required: true

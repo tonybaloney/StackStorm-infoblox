@@ -9,3 +9,9 @@ parameters:
     type: string
     immutable: true
     default: 'fixedaddress'
+  ipv4addr:
+    type: string
+    description: filter by ip4 address
+  network_view:
+    type: string
+    description: filter by network view

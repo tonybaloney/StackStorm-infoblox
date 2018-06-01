@@ -1,11 +1,11 @@
 ---
-name: get_ipv6network
+name: get_member
 runner_type: python-script
-description: Get NetworkV6
+description: Get Member
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
     immutable: true
-    default: 'ipv6network'
+    default: 'member'
