@@ -1,9 +1,9 @@
 ---
-name: get_cnamerecord
+name: create_cnamerecord
 runner_type: python-script
-description: Get CNAME records
+description: Create CNAME records
 enabled: true
-entry_point: get_object.py
+entry_point: create_object.py
 parameters:
   object_type:
     type: string
@@ -11,4 +11,7 @@ parameters:
     default: 'record:cname'
   name:
     type: string
-    description: Filter by name
+    required: true
+  canonical:
+    type: string
+    required: true
