@@ -1,14 +1,11 @@
 ---
-name: get_dns_view
+name: get_ptrrecord
 runner_type: python-script
-description: Get DNS views
+description: Get PTR Record
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
-    default: 'view'
     immutable: true
-  name:
-    type: string
-    description: Filter by name
+    default: 'record:ptr'

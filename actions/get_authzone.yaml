@@ -1,14 +1,14 @@
 ---
-name: get_dns_view
+name: get_authuone
 runner_type: python-script
-description: Get DNS views
+description: Get authoritative zones
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
-    default: 'view'
     immutable: true
-  name:
+    default: 'zone_auth'
+  fqdn:
     type: string
-    description: Filter by name
+    description: fully qualyfied domain name
