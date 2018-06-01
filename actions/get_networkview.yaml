@@ -3,7 +3,7 @@ name: get_networkview
 runner_type: python-script
 description: Get a network views
 enabled: true
-entry_point: get_object.py
+entry_point: get_object_detailed.py
 parameters:
   object_type:
     type: string
