@@ -1,0 +1,17 @@
+---
+name: create_network
+runner_type: python-script
+description: Create a network
+enabled: true
+entry_point: create_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'network'
+  name:
+    type: string
+    required: true
+  address:
+    type: string
+    description: Address
