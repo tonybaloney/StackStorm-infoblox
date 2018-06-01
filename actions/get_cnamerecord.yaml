@@ -3,7 +3,7 @@ name: get_cnamerecord
 runner_type: python-script
 description: Get CNAME records
 enabled: true
-entry_point: get_object.py
+entry_point: get_object_detailed.py
 parameters:
   object_type:
     type: string
@@ -15,3 +15,10 @@ parameters:
   zone:
     type: string
     description: Filter by zone
+  fields:
+    type: array
+    description: Fields to return
+    default:
+      - "canonical"
+      - "name"
+      - "view"
