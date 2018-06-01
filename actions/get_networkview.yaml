@@ -1,0 +1,11 @@
+---
+name: get_networkview
+runner_type: python-script
+description: Get a network views
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'networkview'

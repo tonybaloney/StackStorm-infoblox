@@ -19,5 +19,11 @@ class InfobloxBaseAction(Action):
         _username = self.config['username']
         _password = self.config['password']
 
-        opts = {'host': _hostname, 'username': _username, 'password': _password}
+        opts = {
+            'host': _hostname, 
+            'username': _username, 
+            'password': _password,
+            'ssl_verify': False,
+            'silent_ssl_warnings': True
+        }
         self.connection = connector.Connector(opts)
