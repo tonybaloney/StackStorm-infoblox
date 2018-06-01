@@ -1,1 +1,2 @@
 infoblox-client
+oslo.config>=6.2.1

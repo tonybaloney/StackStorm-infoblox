@@ -1,11 +1,11 @@
 ---
-name: get_networkview
+name: get_dns_view
 runner_type: python-script
-description: Get a network views
+description: Get DNS views
 enabled: true
 entry_point: get_object.py
 parameters:
   object_type:
     type: string
+    default: 'view'
     immutable: true
-    default: 'networkview'
