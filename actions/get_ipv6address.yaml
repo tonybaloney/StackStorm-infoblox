@@ -9,6 +9,6 @@ parameters:
     type: string
     immutable: true
     default: 'ipv6address'
-     network:
-type: string
-description: filter by ipv6 address
+  network:
+    type: string
+    description: filter by ipv6 address

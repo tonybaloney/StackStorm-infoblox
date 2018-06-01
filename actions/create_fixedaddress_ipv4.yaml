@@ -1,0 +1,21 @@
+---
+name: create_fixedaddress_ipv4
+runner_type: python-script
+name: create_fixed_ipv4_address
+description: 
+enabled: true
+entry_point: create_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'fixedaddress'
+  ipv4addr:
+    type: string
+    required: true
+    default: func:nextavailableip:a.b.c.d/xx
+  mac:
+    type: string
+    description: Mac address of device
+    required: true
+  

@@ -1,0 +1,11 @@
+---
+name: get_IPv4Address
+runner_type: python-script
+description: Get IP v4 address
+enabled: true
+entry_point: get_object.py
+parameters:
+  object_type:
+    type: string
+    immutable: true
+    default: 'ipv4address'
